@@ -28,7 +28,7 @@ const PORT = process.env.PORT || 8080
 app.get('/', async (req, res) => {
     // const data = await userModel.find({})
 
-    res.json({ success : true ,data:data})
+    res.json('working fine')
 })
 // 
 //create data  || save data
